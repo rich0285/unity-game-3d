@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
 {
 
 
-    public float lookRadius = 10f;
+    public float lookRadius = 1000f;
 
     private Transform target;
     private NavMeshAgent agent;

@@ -14,9 +14,19 @@ public class PM : MonoBehaviour
     public float jumpHeight = 3f;
     public bool isLanding = false;
     Vector3 velocity;
+    public float maxHP = 100f;
+    public float curHP = 0f;
+    public bool isAlive = true;
 
     private bool isGrounded;
     // Update is called once per frame
+
+    void Start()
+    {
+        curHP = maxHP;
+        
+
+    }
     void Update()
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
@@ -69,5 +79,23 @@ public class PM : MonoBehaviour
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
+
+
+       
+    }
+    public void TakeDamage(float amount)
+    {
+        if (!isAlive)
+        {
+            return;
+        }
+
+        if (curHP <=0)
+        {
+            isAlive = false;
+            gameObject.SetActive(false);
+        }
+
+        curHP -= amount;
     }
 }

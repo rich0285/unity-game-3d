@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
-    public int EnemyHealth = 10;
+    public float EnemyHealth = 50;
 
-    void Health(int DamageAmount)
+
+    private float dmg = 100f;
+
+    public void TakeDamage(float DamageAmount)
     {
         EnemyHealth -= DamageAmount;
     }
 
     void Update()
     {
-        if (EnemyHealth <= 0)
+        if (EnemyHealth <= 0f)
         {
             Destroy(gameObject);
         }
+    }
+
+    void OnTriggerEnter(Collider c)
+    {
+        c.gameObject.GetComponent<PM>().TakeDamage(dmg);
+       
     }
 }

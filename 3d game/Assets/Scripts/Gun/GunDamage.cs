@@ -4,25 +4,31 @@ using UnityEngine;
 
 public class GunDamage : MonoBehaviour
 {
-    public int DamageAmount = 5;
-    public float TargetDistance;
-    public float AllowedRange = 15.0f;
+    public float damage = 10f;
+    public float range = 100f;
+    public Camera fpsCam;
 
-    private RaycastHit Shot;
     void Update()
     {
         if (Input.GetButtonDown("Fire1") && Ammo.CurrentAmmo >= 1)
         {
-            
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out Shot))
+            Shoot();
+        }
+        
+        void Shoot()
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
             {
-                TargetDistance = Shot.distance;
-                if (TargetDistance < AllowedRange)
+                Debug.Log(hit.transform.name);
+                EnemyScript target = hit.transform.GetComponent<EnemyScript>();
+                if (target != null)
                 {
-                    Shot.transform.SendMessage("Health", DamageAmount, SendMessageOptions.DontRequireReceiver);
+                    target.TakeDamage(damage);
                 }
             }
         }
+
     }
 
 }

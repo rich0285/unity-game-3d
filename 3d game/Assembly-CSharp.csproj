@@ -63,53 +63,58 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Imports\AssetStoreOriginals\_SNAPS_PrototypingAssets\About\Scripts\Readme.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Camera\MouseMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyScript.cs" />
     <Compile Include="Assets\Scripts\GamePlay\AmmoPickup.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\EnemySpawn.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\LightManager.cs" />
+    <Compile Include="Assets\Scripts\GamePlay\LightPreset.cs" />
     <Compile Include="Assets\Scripts\Gun\Ammo.cs" />
     <Compile Include="Assets\Scripts\Gun\GunDamage.cs" />
     <Compile Include="Assets\Scripts\Gun\Gunfire.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Player\PM.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.ProGrids.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.ProBuilder.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProGrids.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.ProGrids.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -295,13 +300,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/Users/Richart/Desktop/2d game/unity/3d game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Richart/Desktop/2d game/unity/unity-game-3d/3d game/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
